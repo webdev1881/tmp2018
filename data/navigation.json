@@ -1,0 +1,20 @@
+{
+  "navPages": {
+    "Home" : {
+    	"title": "Главная страница",
+    	"link": "main.html"
+    },
+    "About" : {
+    	"title": " О компании",
+    	"link": "about.html"
+    },
+    "Catalog" : {
+    	"title": "Каталог",
+    	"link": "catalog.html"
+    },
+    "Next Page" : {
+    	"title": "Очередная стра..",
+    	"link": "Товар.."
+    }
+  }
+}

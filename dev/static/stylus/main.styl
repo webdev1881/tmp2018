@@ -1,0 +1,66 @@
+@import 'utils/vars.styl'
+@import 'utils/mixins.styl'
+@import 'libs.styl'
+@import 'utils/fonts.styl'
+
+
+html, body
+	font-family $baseFont
+	font-size $baseFontSize
+	height 100%
+
+h1,h2,h3,h4,h5,h6
+	margin 0
+
+ul,li
+	list-style-type none
+	margin 0
+	padding 0
+
+p
+	margin 0
+
+a
+	color $black
+	text-decoration none
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video
+	vertical-align middle
+
+textarea
+	resize none
+
+section
+	position relative
+
+input,
+select,
+button
+	outline none
+
+*, *:before, *:after
+	box-sizing border-box
+
+.wrapper
+	display flex
+	flex-direction column
+	height 100%
+	.content
+		flex 1 0 auto
+.container
+	max-width $baseContainer
+	margin 0 auto
+
+//Модули и Компоненты
+@import "modules/modules.styl"
+@import "components/components.styl"
+
+// СТРАНИЦЫ
+// Главная страница
+@import 'pages/index/index.styl'
+
